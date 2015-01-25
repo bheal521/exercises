@@ -20,7 +20,7 @@ individuals at every education level (one through sixteen) that are making more 
 at least $50,000. The largest jump appears between those who have not completed high school and those that have, with those on opposite sides of the spectrum having stark differences.
 While less than one-fourth of the individuals without a high school diploma make more than $50,000, nearly three-fourths of those with doctorates or professional degrees do.
 
-<img src="https://raw.githubusercontent.com/bheal521/exercises/master/exercise01/Edu_vs_Income.png" alt="Education-Level" width="80%", height="65%">
+<img src="https://raw.githubusercontent.com/bheal521/exercises/master/exercise01/Edu_vs_Income.png" alt="Education-Level" width="80%", height="45%">
 
 
 ### The Model
