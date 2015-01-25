@@ -334,6 +334,6 @@ nrow(test.predictions[test.predictions$over_50k == 0 & test.predictions$pred == 
 
 ## one of the strongest relationships observed was between Education Level and >$50k ##
 p <- ggplot(final.data, aes(x = education_num, fill = as.factor(over_50k))) + geom_bar(position = "fill") + ylab("Proportion of Population") + xlab(label = "Education Level") + scale_fill_manual(values=c("#E69F00", "#56B4E9") ,name="Salary Level", labels=c("Less than $50k", "More than $50k"))
-ggsave(filename = "C:/Users/Ben/Documents/GitHub/exercises/exercise01/Edu_vs_Income.png", plot = p)
+ggsave(filename = "C:/Users/Ben/Documents/GitHub/exercises/exercise01/Edu_vs_Income.png", plot = p, width = 5, height = 3, units = "in")
 
 
