@@ -28,11 +28,11 @@ While less than one-fourth of the individuals without a high school diploma make
 When designing the logistic regression model, stepwise regression techniques were used to explore several baseline models. Through this process, quasi-complete separation was encountered
 due to several combinations of the levels of input variables all having the same level of income. In order to simplify the design space, efforts were made to regroup several of levels of the categorical
 variables throughout to be useful for prediction. Re-grouping the levels within these variable solved issued with quasi-complete separation. The following variables were re-binned during this process:
-- 'Work classes': Individuals that had occupation information missing, or had never worked, or were without pay were grouped together.
-- 'Education Level': Individuals with less than a high school degree were grouped together, individuals with associates degrees were grouped together, and individuals with doctorates or professional degrees were grouped together.
-- 'Capital Gains': All individuals with zero capital gains were grouped together, and all those with non-zero capital gains were grouped together.
-- 'Capital Loss': All individuals with zero capital loss were grouped together and all those with non-zero capital loss were grouped together.
-- 'Age': Individuals' ages were binned as those less than 25, 25 to 37, 38 to 50, 51 to 62, 63 to 75, and over 75. 
+- `Work classes`: Individuals that had occupation information missing, or had never worked, or were without pay were grouped together.
+- `Education Level`: Individuals with less than a high school degree were grouped together, individuals with associates degrees were grouped together, and individuals with doctorates or professional degrees were grouped together.
+- `Capital Gains`: All individuals with zero capital gains were grouped together, and all those with non-zero capital gains were grouped together.
+- `Capital Loss`: All individuals with zero capital loss were grouped together and all those with non-zero capital loss were grouped together.
+- `Age`: Individuals' ages were binned as those less than 25, 25 to 37, 38 to 50, 51 to 62, 63 to 75, and over 75. 
 
 Once binned, these factors were used as input variables to the logistic model. Additionally, an individuals marital status, occupation, race, relationship, gender and number of hours per week worked were used
 to predict whether or not an individual had an income of more than $50,000. Once a model was created, the accuracy of the model was observed at varying probability cut off points using the ROC curve. The sum of
