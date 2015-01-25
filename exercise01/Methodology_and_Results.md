@@ -18,7 +18,7 @@ analysis include:
 One of the strongest relationships observed was that between the level of education that an individual had and their level of income. The chart below shows the proportion of
 individuals at every education level (one through sixteen) that are making more than $50,000.
 
-![Education Level](https://raw.githubusercontent.com/bheal521/exercises/master/exercises01/Edu_vs_Income.png)
+![Education Level](https://raw.githubusercontent.com/bheal521/exercises/master/exercise01/Edu_vs_Income.png)
 
 
 ### The Model
