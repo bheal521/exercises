@@ -16,9 +16,11 @@ analysis include:
 - Those that are married and living with their spouse are far more likely to make more than $50,000 than others that are any of the following: divorced, spouse-absent, never-married, separated, or widowed.
 
 One of the strongest relationships observed was that between the level of education that an individual had and their level of income. The chart below shows the proportion of
-individuals at every education level (one through sixteen) that are making more than $50,000.
+individuals at every education level (one through sixteen) that are making more than $50,000. As seen below, the greater one's education level the more likely they are to make
+at least $50,000. The largest jump appears between those who have not completed high school and those that have, with those on opposite sides of the spectrum having stark differences.
+While less than one-fourth of the individuals without a high school diploma make more than $50,000, nearly three-fourths of those with doctorates or professional degrees do.
 
-![Education Level](https://raw.githubusercontent.com/bheal521/exercises/master/exercise01/Edu_vs_Income.png)
+![Education Level](https://raw.githubusercontent.com/bheal521/exercises/master/exercise01/Edu_vs_Income.png =250x250)
 
 
 ### The Model
