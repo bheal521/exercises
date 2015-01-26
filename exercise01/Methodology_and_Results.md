@@ -43,11 +43,11 @@ the sensitivity and specificity were maximized at a cut off probability of appro
 
 The logistic regression model explained above was more than 85 percent accurate in identifying individuals with an income of more than $50,000. It was less accurate in its ability to predict individuals
 with incomes of less than $50,000 (77 percent). The table below illustrates this classification as was seen when testing the model on a portion of the data that was set aside in order to accurately test
-the performance of the model.
+the performance of the model. The cells where text is highlighted indicate records where the model correctly predicted the individual's income level.
 
 | Actual Income | Predicted: $50k + | Predicted: < $50k |
 |---------------|:-----------------:|:-----------------:|
-| $50k + 	    |  1,266			| 217				|
-| < $50k		|  1,168 			| 3,859				|
+| $50k + 	    |***1,266***		| 217				|
+| < $50k		|  1,168 			| ***3,859***		|
 
 
