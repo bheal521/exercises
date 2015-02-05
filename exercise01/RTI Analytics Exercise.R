@@ -79,7 +79,7 @@ ggplot(final.data, aes(x = age, fill = as.factor(over_50k))) + geom_bar(position
 
 ## what about distribution of education level?? ##
 hist(final.data$education_num, xlab="Education")
-ggplot(final.data, aes(x = education_num, fill = as.factor(over_50k))) + geom_bar(position = "fill") + ylab("Proportion Making $50k+") + xlab(label = "Education Level") + scale_fill_manual(values=c("#E69F00", "#56B4E9") ,name="Salary Level", labels=c("Less than $50k", "More than $50k"))
+ggplot(final.data, aes(x = education_num, fill = as.factor(over_50k))) + geom_bar(position = "fill") + xlab("Proportion Making $50k+") + xlab(label = "Education Level") + scale_fill_manual(values=c("#E69F00", "#56B4E9") ,name="Salary Level", labels=c("Less than $50k", "More than $50k"))
 
 
 ## look at the categorical vars now ##
